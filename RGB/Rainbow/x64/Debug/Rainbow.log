@@ -1,0 +1,39 @@
+﻿  Rainbow.cpp
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glewInit，函数 main 中引用了该符号
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glfwInit，函数 main 中引用了该符号
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glfwTerminate，函数 main 中引用了该符号
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glfwWindowHint，函数 main 中引用了该符号
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glfwCreateWindow，函数 main 中引用了该符号
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glfwWindowShouldClose，函数 main 中引用了该符号
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glfwSetWindowShouldClose，函数 "void __cdecl key_callback(struct GLFWwindow *,int,int,int,int)" (?key_callback@@YAXPEAUGLFWwindow@@HHHH@Z) 中引用了该符号
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glfwPollEvents，函数 main 中引用了该符号
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glfwSetKeyCallback，函数 main 中引用了该符号
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glfwMakeContextCurrent，函数 main 中引用了该符号
+Rainbow.obj : error LNK2019: 无法解析的外部符号 glfwSwapBuffers，函数 main 中引用了该符号
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewBindBuffer
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewBufferData
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewDeleteBuffers
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewGenBuffers
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewAttachShader
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewCompileShader
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewCreateProgram
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewCreateShader
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewDeleteShader
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewEnableVertexAttribArray
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewGetProgramInfoLog
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewGetProgramiv
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewGetShaderInfoLog
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewGetShaderiv
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewLinkProgram
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewShaderSource
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewUseProgram
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewVertexAttribPointer
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewBindVertexArray
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewDeleteVertexArrays
+Rainbow.obj : error LNK2001: 无法解析的外部符号 __glewGenVertexArrays
+Rainbow.obj : error LNK2001: 无法解析的外部符号 glewExperimental
+D:\FutureCode\OpenGL\Rainbow\Dependencies\glew\lib\Release\Win32\glew32s.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\FutureCode\OpenGL\Rainbow\Dependencies\glfw\lib-vc2022\glfw3.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\FutureCode\OpenGL\Rainbow\Dependencies\glut\glut32.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\FutureCode\OpenGL\Rainbow\Dependencies\glut\glut.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+D:\FutureCode\OpenGL\Rainbow\x64\Debug\Rainbow.exe : fatal error LNK1120: 33 个无法解析的外部命令
